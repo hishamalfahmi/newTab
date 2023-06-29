@@ -1,5 +1,5 @@
 :root {
-  --primary: #101010;
+  --primary: #000000;
   --secondary: #3d3d3d;
   --third: #969696;
 }
@@ -46,6 +46,10 @@ main .imgClock {
 
 main .imgClock img {
   width: 100%;
+}
+
+main img {
+  filter: contrast(2);
 }
 
 main .current-time {
